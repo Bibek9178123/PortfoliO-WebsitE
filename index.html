@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b32710fa4d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="port-removebg-preview.png" class="logo">
+                <ul id="sidemenu">
+                    
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <h1>hi,I'm <span>Bibek</span><br>Barik from India</h1>
+            </div>
+        </div>
+    </div>
+    <!---------------About--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                  <div class="about-col-1">
+                    <img src="bibek-PhotoRoom.jpg">
+                  </div>
+                  <div class="about-col-2">
+                     <h1 class="sub-title">About Me</h1>
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, maiores autem.
+                         Eius officiis reprehenderit perferendis rerum ipsa odio ipsum porro vitae blanditiis itaque, corrupti minima molestias deleniti! Deserunt, hic eos.
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Itaque possimus, dolorem officia at aliquid expedita optio est deserunt delectus, deleniti amet non minus repellat et, molestias accusantium ullam quam dolorum!
+                    Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Voluptates minima atque quas recusandae maiores doloremque alias ipsam culpa temporibus, odio iste consequuntur voluptatibus! Accusamus numquam quidem fuga.
+                      Eaque, optio sequi.</p>
+
+
+                      <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links " onclick="opentab('experience')">Experience</p>
+                            <p class="tab-links " onclick="opentab('education')">Education</p>
+                      </div>
+
+                      <div class="tab-contents active-tab" id="skills">
+                          <ul>
+                                <li><span>UX/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Web developement</span><br>Web app Developement</li>
+                                <li><span>App Developement</span><br>Building Android/ios apps</li>
+                          </ul>
+                      </div>
+                      <div class="tab-contents" id="experience">
+                             <ul>
+                                    <li><span>2021-current</span><br>UI/UX Design training at ET
+                                    Institute</li>
+                                    <li><span>2019-2021</span><br>team load at startapp llc.</li>
+                                    <li><span>2017-2019</span><br>UI/Ux design executive at container 
+                                    digital ltd.</li>
+                                
+                                </ul>
+                      </div>
+                      <div class="tab-contents" id="education">
+                                <ul>
+                                     <li><span>ghswkjlfbe</span><br>hsjfnf hfjfhfhf btrgt nfkfhhfjg </li>
+                                     <li><span>hedjrhj</span><br>Wjdbfkff jehr dhfgnf vnjjf nbnb c c d f .</li>
+                                     <li><span>App gdg</span><br>erkgj mgn bmbn mfnnn fkfm.</li>
+                                </ul>
+                      </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+<!-----------------services------------------------>
+<div id="services">
+    <div class="container">
+          <h1 class="sub-title">my Services</h1>
+          <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Dolore laboriosam, corrupti dignissimos ratione quasi consequuntur.
+                          animi velit error sint culpa porro fuga aliquam nulla nostrum.
+                          mollitia dolorum est, a asperiores?</p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>app design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Dolore laboriosam, corrupti dignissimos ratione quasi consequuntur.
+                          animi velit error sint culpa porro fuga aliquam nulla nostrum.
+                          mollitia dolorum est, a asperiores?</p>
+                    <a href="#">learn more</a>
+                </div> 
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>project design</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                         Dolore laboriosam, corrupti dignissimos ratione quasi consequuntur.
+                          animi velit error sint culpa porro fuga aliquam nulla nostrum.
+                          mollitia dolorum est, a asperiores?</p>
+                    <a href="#">learn more</a>
+                </div>  
+          </div>
+    </div>
+</div>
+
+<!-------------portfolio---------->
+<div class="portfolio">
+       <div class="container">
+        <h1 class="sub-title">my Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work-1.png">
+                   <div class="layer">
+                    <h3>social media app</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis fugit earum vero repellendus eos iusto cumque veritatis.
+                        cupiditate in nemo omnis magnam ea ipsa laborum amet magni, quis maxime modi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+            </div>
+            <div class="work">
+                <img src="work-2.png">
+                <div class="layer">
+                    <h3>music app</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis fugit earum vero repellendus eos iusto cumque veritatis.
+                        cupiditate in nemo omnis magnam ea ipsa laborum amet magni, quis maxime modi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+            </div>
+            <div class="work">
+                <img src="work-3.png">
+                <div class="layer">
+                    <h3>online shopping app</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                        Debitis fugit earum vero repellendus eos iusto cumque veritatis.
+                        cupiditate in nemo omnis magnam ea ipsa laborum amet magni, quis maxime modi.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                   </div>
+            </div>
+        </div>
+              <a href="#" class="btn">see more</a>
+
+       </div>
+</div>
+
+<!------------------------contact------------------>
+<div id="contact">
+    <div class="container">
+           <div class="row">
+                <div class="contact-left">
+                       <h1 class="sub-title">Contact me</h1>
+                       <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                       <p><i class="fa-solid fa-square-phone"></i>0123456789</p>
+                       <div class="social-icons">
+                             <a href="https://facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                             <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                             <a href=""><i class="fa-brands fa-instagram"></i></a>
+                             <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                             
+                       </div>
+                       <a href="BIBEK RESUME (FINAL).pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                      <form>
+                            <input type="text" name="Name" placeholder="your Name" required>
+                            <input type="email" name="email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                            <button type="submit" class="btn btn2">submit</button>
+                      </form>
+                </div>
+           </div>
+    </div>
+    <div class="copyright">
+        <p>copyright Bibek.made with <i class="fa-solid fa-heart"></i>by own website</p>
+    </div>
+</div>
+
+<script>
+
+          var tablinks = document.getElementsByClassName("tab-links");
+          var tabcontents = document.getElementsByClassName("tab-contents");
+
+         function opentab(tabname){
+             for(tablink of tablinks){
+                   tablink.classlist.remove("active-link");
+                  }
+                for(tabcontent of tabcontents){
+                      tabcontent.classlist.remove("active-tab");
+     }
+      
+     event.currentTarget.classlist.add("active-link");
+     document.getElementById(tabname).classList.add("active-tab");
+}
+
+
+
+
+
+</script>
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right
+    }
+</script>
+
+
+</body>
+</html>
